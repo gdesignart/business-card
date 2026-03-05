@@ -1,5 +1,27 @@
 
+body{
+  font-family: "League Gothic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 87.5;
+    background-color: antiquewhite;
+    background-image: url("assets/linked-in.svg");
+}
+
 
 h1{
-    color:rgb(234, 126, 99);
+    color:rgb(180, 28, 28);
+    font-size: 100px;
 }
+
+svg{
+    max-width: 80px;
+    fill: rgb(180, 28, 28);
+}
+
+svg:hover{
+    fill: rgb(255, 0, 0);
+}
+
