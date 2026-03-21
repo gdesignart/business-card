@@ -5,23 +5,60 @@ body{
   font-weight: 400;
   font-style: normal;
   font-variation-settings:
-    "wdth" 87.5;
-    background-color: antiquewhite;
-    background-image: url("assets/linked-in.svg");
+    "width" 87.5;
+    background-color: rgb(76, 75, 74);
+    background-image: url("assets/Eye_Background.png"); 
+    background-repeat: repeat;
+    background-size: 150px 150px;
+    h1{
+    color:#62140b;
+    font-size: 100px;}
+    h2 {
+    color: rgb(65, 69, 81);
+    font-size: 50px;
+}
+}
+.container {
+/* max-width: 1440px; */
+display: grid;
+grid-template-columns: repeat(12, 1fr);
+grid-template-areas:
+". . . . . . . . . . . ."
+". . . . . . . . . . . ."
+". . . d d d d d d . . ."
+". . . a a a . . . . . ."
+". . . b b b . . . . . ."
+". . . b b b . . . . . ."
+". . . . . . . . . . . .";
+gap: 0.5 rem;
+
+.image {
+    display: block;
+    width: 100%;
+    max-height: 400px;
+    width: 820px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+}
+
+.header { grid-area: a;}
+
+.subheader { grid-area: b;}
+
+.logo { grid-area: c;}
+
+.image { grid-area: d;}
+
+#linkedinlogo{
+    max-width: 70px;
+    fill: rgb(58, 41, 41);
+}
+
+#linkedinlogo:hover{
+    fill: rgb(156, 147, 147);
+    max-width: 75px;
+    transition: all 0.3s ease-in-out;
 }
 
 
-h1{
-    color:rgb(180, 28, 28);
-    font-size: 100px;
-}
-
-svg{
-    max-width: 80px;
-    fill: rgb(180, 28, 28);
-}
-
-svg:hover{
-    fill: rgb(255, 0, 0);
-}
 
