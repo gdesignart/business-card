@@ -50,7 +50,7 @@ grid-template-areas:
 ". . d d d d d d d d . ."
 ". . a a a a a . c e . ."
 ". . b b b b b . . . . ."
-". . b b b b b . . . . ."
+". . . . . . . . . . . ."
 ". . . . . . . . . . . ."
 ". . . . . . . . . . . .";
 gap: 1.25 rem;
@@ -115,3 +115,4 @@ padding: 30px;
 
 
 
+}
